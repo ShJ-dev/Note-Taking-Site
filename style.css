@@ -1,0 +1,53 @@
+body{
+  height: 200px;
+  background-color: rgb(167, 157, 157); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(124, 117, 117),rgb(145, 135, 135)); /* Standard syntax (must be last) */
+}
+
+
+/*Showcase*/
+#showcase{
+  background-image: url(images/COFee.jpg);
+  min-height: 400px !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size:cover;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#showcase h1{
+  padding-top: 10rem;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+}
+/*Editor*/
+#editorTab{
+  border:solid orange 2px;
+  margin:2em;
+}
+/*Notes*/
+.notes{
+  width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: #a27250;
+  box-shadow: 10px 10px 5px #887f7f;
+  color: aliceblue;
+  border:groove rgb(228, 191, 28) 2px;
+  border-radius: 4%;
+  float:left;
+  margin:4rem;
+}
+.notes i{
+  float:right;
+}
+.notesTitle{
+  font-family: 'Corben';font-size: 20px;
+  color:black;
+
+}
+.notesBody{
+  font-family: 'Caveat';font-size: 22px;
+}

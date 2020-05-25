@@ -1,0 +1,19 @@
+body
+{
+ background colour: Blue;
+}
+.topdiv
+{
+  border:double;
+  border-width:1px;
+  border-colour: #E6C41E;
+  text-align:center;
+  font-family:"Lucida Console", Courier, monospace;
+}
+.tophead
+{
+  font-colour:#E6C41E
+}
+.img{
+  width="75%";
+}
