@@ -7,12 +7,47 @@
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js" />
     <link
       rel="stylesheet"
       type="text/css"
       href="materialize/css/materialize.min.css"
     />
+    
+  </head>
+
+  <body>
+    <!--Showcase-->
+    <section id="showcase">
+      <div class="container">
+        <h1>Note Taking Website</h1>
+      </div>
+    </section>
+    <!--Content Editor-->
+
+    <form class="form-inline mb-3">
+      <input type="text" class="form-control mr-2" id="formNoteText" placeholder="Enter Text Here" />
+      <input type="submit" class="btn" value="Add Note" id="formNoteAddButton"/>
+      <br>
+    <select class="d-inline-block" id="formColor">
+      <option value="default">Default</option>
+      <option value="color1">Color1</option>
+      <option value="color2">Color2</option>
+      <option value="color3">Color3</option>
+      <option value="color4">Color4</option>
+    </select>
+    </form>
+
+    <!--Notes-->
+
+    <div class="notes">
+    </div>
+
+
+
+
+    <!--LINKS-->
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/javascript" href="js/bootstrap.min.js" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -37,39 +72,5 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-  </head>
-
-  <body>
-    <!--Showcase-->
-    <section id="showcase">
-      <div class="container">
-        <h1>Note Taking Website</h1>
-      </div>
-    </section>
-    <!--Content Editor-->
-    <div id="editorTab">
-      <form id="addForm" class="form-inline mb-3">
-        <input type="text" class="form-control mr-2" id="item" />
-        <input type="submit" class="btn btn-dark" value="submit" />
-      </form>
-    </div>
-
-    <!--Notes-->
-    <div id="notesWrapper">
-      <div class="notes">
-        <div class="notesTitle">
-          <a class="btn btn-sm btn-dark float-right" href="#">
-            <i class="fa fa-times" aria-hidden="true"></i>
-          </a>
-          Note 1
-        </div>
-        <div class="notesBody">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima,
-            porro!
-        </div>
-      </div>
-    </div>
-
-    <script src="app.js"></script>
   </body>
 </html>
