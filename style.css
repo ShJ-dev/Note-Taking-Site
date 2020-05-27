@@ -8,7 +8,7 @@ body{
 
 /*Showcase*/
 #showcase{
-  background-image: url(images/COFee.jpg);
+  background-image: url(images/COFee.jpg) !important;
   min-height: 400px !important;
   background-repeat: no-repeat;
   background-position: center center;
